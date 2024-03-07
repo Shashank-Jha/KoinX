@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.gradient-line {
+  height: 5px;
+  background: linear-gradient(to right, red, orange, green);
+  width: 100rem;
+  margin-right: 30px;
+  margin-top: 22px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
